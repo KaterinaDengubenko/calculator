@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input type="text" disabled>
+            <div class="buttons">
+                <div class="calc-row">
+                    <div class="btn" data-value="1">1</div>
+                    <div class="btn" data-value="2">2</div>
+                    <div class="btn" data-value="3">3</div>
+                </div>
+                <div class="calc-row">
+                    <div class="btn" data-value="4">4</div>
+                    <div class="btn" data-value="5">5</div>
+                    <div class="btn" data-value="6">6</div>
+                </div>
+                <div class="calc-row">
+                    <div class="btn" data-value="7">7</div>
+                    <div class="btn" data-value="8">8</div>
+                    <div class="btn" data-value="9">9</div>
+                </div>
+                <div class="calc-row">
+                    <div class="btn" data-value="-">-</div>
+                    <div class="btn" data-value="0">0</div>
+                    <div class="btn" data-value="+">+</div>
+                </div>
+                <div class="calc-row">
+                    <div class="btn" data-value="/">/</div>
+                    <div class="btn" data-value="*">*</div>
+                    <button id="clearButton">Clear</button>
+                </div>
+                <div class="calc-row">
+                    <div class="btn" data-value="Math.sin">sin</div>
+                    <div class="btn" data-value="Math.cos">cos</div>
+                    <div class="btn" data-value="(">(</div>
+                    <div class="btn" data-value=")">)</div>
+                </div>
+                <div class="calc-row">
+                    <div class="btn" id="equal" data-value="=" >=</div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
